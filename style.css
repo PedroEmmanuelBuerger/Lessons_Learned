@@ -23,6 +23,37 @@ body {
 /* seção 2 */
 
 #minha_foto {
+    position: relative;
+    top: 170px;
+    left: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: green;
+    padding: 7px;
+}
+
+#contato {
+    top: 180px;
+    left: 105px;
+    font-size: 18px;
+    position: relative;
+}
+
+#licoes_aprendidas {
+    font-family: monospace;
+    font-size: 15px;
+    position: relative;
+    right: 100px;
+    top: 20px;
+}
+
+#aprender {
 position: relative;
-top: 200px;
+right: 100px;
+top: 20px;
+}
+
+#licoes_a_aprender {
+
 }
