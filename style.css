@@ -3,3 +3,20 @@
 body {
 background-color: rgb(253, 251, 251);
 }
+
+#cabecalho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: green;
+    padding-bottom: 50px;
+}
+
+#titulo {
+color: white;
+top: 20px;
+left: 650px;
+position: relative;
+}
+
