@@ -33,7 +33,7 @@ body {
     padding: 7px;
 }
 
-#contato {
+#informacoes {
     top: 180px;
     left: 105px;
     font-size: 18px;
@@ -48,12 +48,45 @@ body {
     top: 20px;
 }
 
-#aprender {
-position: relative;
-right: 100px;
-top: 20px;
+#aprendido {
+    position: relative;
+    right: 100px;
+    top: 20px;
 }
 
 #licoes_a_aprender {
+    position: relative;
+    left: 440px;
+    top: -240px;
+    font-family: monospace;
+    font-size: 18px;
+}
 
+#aprender {
+position: relative;
+right: -450px;
+top: -230px;
+}
+ul li {
+    margin: -2px 0;
+}
+
+/* Seção 3 */
+
+#rodape {
+position:absolute;
+background-color: green;
+bottom: auto;
+left:0;
+height: 100px;
+width: 100%;
+padding-bottom: 70px;
+}
+
+#artigo {
+position: relative;
+color: white;
+font-size:18px;
+left: 10px;
+top: 20px;
 }
