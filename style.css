@@ -1,29 +1,29 @@
 /* seção 1 */
-
 body {
     background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: green;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 #titulo {
     color: white;
-    top: 20px;
-    left: 650px;
-    position: relative;
+    text-align: center;
+
 }
 
 /* seção 2 */
 
 #minha_foto {
-    position: relative;
+    position: absolute;
     top: 170px;
     left: 10px;
     height: 300px;
@@ -33,60 +33,76 @@ body {
     padding: 7px;
 }
 
-#informacoes {
-    top: 180px;
-    left: 105px;
-    font-size: 18px;
-    position: relative;
-}
 
 #licoes_aprendidas {
     font-family: monospace;
-    font-size: 15px;
-    position: relative;
-    right: 100px;
-    top: 20px;
+    font-size: 18px;
+    position: absolute;
+    left: 80px;
+    top: 700px;
+    width: auto;
 }
 
 #aprendido {
-    position: relative;
-    right: 100px;
-    top: 20px;
+    position: absolute;
+    left: 80px;
+    top: 650px;
+    display: inline;
 }
 
 #licoes_a_aprender {
-    position: relative;
-    left: 440px;
-    top: -240px;
+    position: absolute;
+    left: 800px;
+    top: 700px;
     font-family: monospace;
     font-size: 18px;
+    width: auto;
 }
 
 #aprender {
-position: relative;
-right: -450px;
-top: -230px;
+    position: relative;
+    right: -820px;
+    top: 655px;
+    display: inline;
 }
-ul li {
-    margin: -2px 0;
+
+
+
+#sobre-mim {
+    position: absolute;
+    font-family: monospace;
+    top: 350px;
+    left: 87%;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgb(15, 199, 15);
+    border-radius: 10%;
+    padding: 13px;
+    border-width: 30px;
 }
 
 /* Seção 3 */
 
 #rodape {
-position:absolute;
-background-color: green;
-bottom: auto;
-left:0;
-height: 100px;
-width: 100%;
-padding-bottom: 70px;
+    background-color: green;
+    height: 50px;
+}
+
+
+#rodape {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 980px;
+    height: 60px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 #artigo {
-position: relative;
-color: white;
-font-size:18px;
-left: 10px;
-top: 20px;
+    position: relative;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    left: 30px;
 }
