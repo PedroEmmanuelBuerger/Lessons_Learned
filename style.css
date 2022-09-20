@@ -1,10 +1,10 @@
 /* seção 1 */
 
 body {
-background-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
     position: fixed;
     top: 0;
     left: 0;
@@ -14,9 +14,15 @@ background-color: rgb(253, 251, 251);
 }
 
 #titulo {
-color: white;
-top: 20px;
-left: 650px;
-position: relative;
+    color: white;
+    top: 20px;
+    left: 650px;
+    position: relative;
 }
 
+/* seção 2 */
+
+#minha_foto {
+position: relative;
+top: 200px;
+}
