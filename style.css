@@ -1,6 +1,11 @@
 /* seção 1 */
+* {
+margin: 0;
+padding: 0;
+}
 body {
     background-color: rgb(253, 251, 251);
+    font-family: sans-serif;
 }
 
 #cabecalho {
@@ -10,8 +15,9 @@ body {
     left: 0;
     width: 100%;
     background-color: green;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding: 30px;
+    border: 0px;
+    margin: 0px;
 }
 
 #titulo {
@@ -31,6 +37,8 @@ body {
     border-radius: 50%;
     background-color: green;
     padding: 7px;
+    border: 1px;
+    margin: 1px;
 }
 
 
@@ -57,6 +65,7 @@ body {
     font-family: monospace;
     font-size: 18px;
     width: auto;
+
 }
 
 #aprender {
@@ -68,41 +77,47 @@ body {
 
 
 
-#sobre-mim {
+.lado-esquerdo {
     position: absolute;
     font-family: monospace;
-    top: 350px;
-    left: 87%;
+    top: 250px;
+    left: 1400px;
     width: 200px;
     font-size: 20px;
     background-color: rgb(15, 199, 15);
     border-radius: 10%;
     padding: 13px;
     border-width: 30px;
+    line-height: 30px;
 }
+
+.lado-direito {
+position: absolute;
+font-family : monospace;
+top: 228px;
+left: 1650px;
+width: 200px;
+font-size: 20px;
+background-color:  rgb(15, 199, 15);
+border-radius: 10%;
+padding: 13px;
+border-width: 30px;
+line-height: 30px;
+}
+
+
 
 /* Seção 3 */
 
+
 #rodape {
+    z-index: 1;
     background-color: green;
-    height: 50px;
-}
-
-
-#rodape {
     position: absolute;
-    width: 100%;
-    right: 0;
+    height: 100px;
+    padding: 10px;
+    width: 1950px;
     top: 980px;
-    height: 60px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-}
-
-#artigo {
-    position: relative;
-    color: white;
-    font-family: monospace;
-    font-size: 20px;
-    left: 30px;
+    margin-top: 30px;
+    min-width: 100%;
 }
