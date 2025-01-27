@@ -1,31 +1,24 @@
 # Lessons Learned
-O Lessons Learned é um projeto desenvolvido para aprimorar minhas habilidades em desenvolvimento web utilizando somente html e css.
 
-## Funcionalidades
-O projeto possui as seguintes funcionalidades:
-- Visualização de uma pagina html com base no meu perfil(Pedro Emmanuel)
+The Lessons Learned project is developed to enhance my skills in web development using only HTML and CSS.
 
-## Tecnologias Utilizadas
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
+## Features
 
-- HTML
-- CSS
+The project includes the following feature:
 
-## Instalação
-Para utilizar o Lessons Learned localmente, siga os passos abaixo:
+- **View an HTML page based on my profile (Pedro Emmanuel)**
 
-1. Clone o repositório para sua máquina local:
-git clone https://github.com/PedroEmmanuelBuerger/project-Lessons_Learned.git
-2. Navegue até a pasta do projeto:
-cd project-Lessons_Learned
-3. Instale as dependências do projeto: npm install. 
-4. Acesse o Lessons Learned em seu navegador no endereço: http://localhost:3000
+## Technologies Used
 
+The project was developed using the following technologies:
 
-## Principais Aprendizados
-Durante o desenvolvimento deste projeto, foram explorados conceitos de desenvolvimento web html e css puro, como o primeiro projeto que faço utilizando vscode para desenvolvimento web, foi excelente para me mostrar como o mundo do desenvolvimento web pode ser vasto.
+- **HTML**
+- **CSS**
 
-## Conclusão
-O Lessons Learned oferece uma maneira simples e eficaz de registrar e compartilhar as minhas lições aprendidas ao longo do inicio no curso de desenvolvimento da trybe.
+## Key Learnings
 
+During the development of this project, I explored the concepts of pure HTML and CSS web development. As my first project using VSCode for web development, it was an excellent introduction to show me how vast the world of web development can be.
 
+## Conclusion
+
+Lessons Learned offers a simple and effective way to record and share the lessons I've learned at the beginning of the web development course at Trybe.
